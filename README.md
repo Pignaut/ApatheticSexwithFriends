@@ -18,5 +18,6 @@ PLANNED
 - max speed possible for travel will be 0.2 light speed (to scale)
 - max engagement speed will be a relative speed of 0.2 light speed
   - if two fleets moving at each other, both travelling 0.1 light, their relative speed would be 0.2 light
+fleet logistics will need to be managed (i.e. fuel cells, expendable ammunition, food etc)
   
 MOVE COMING SOON
