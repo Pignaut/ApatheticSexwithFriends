@@ -5,7 +5,8 @@ using UnityEngine;
 public class newScript: MonoBehaviour {
 
 	int rand;
-	public GameObject stars;
+	int prefab;
+	public GameObject[] stars = new GameObject[3];
 
 	// Use this for initialization
 	void Start ()
@@ -22,12 +23,14 @@ public class newScript: MonoBehaviour {
 	{
 		for(int i = 0; i < rand; i++)
 		{
+			prefab = Random.Range(0, 3);
+
 			float posX = Random.Range(-126, 124);
 			float posY = Random.Range(-126, 124);
 
-			stars.transform.position = new Vector3 (posX, 0.1f, posY);
+			stars[prefab].transform.position = new Vector3 (posX, 0.1f, posY);
 
-			Instantiate (stars);
+			Instantiate (stars[prefab]);
 		}
 	}
 }
