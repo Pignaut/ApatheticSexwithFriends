@@ -14,6 +14,7 @@ State as of 14/5/17
 PLANNED
 
 - player will control a fleet of warships
+- player will be able to customise how their fleet is organised
 - fleet transit of star systems will take days
 - max speed possible for travel will be 0.2 light speed (to scale)
 - max engagement speed will be a relative speed of 0.2 light speed
