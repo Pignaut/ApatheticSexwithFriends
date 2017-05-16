@@ -3,7 +3,7 @@ Repo name courtesy of https://videogamena.me
 
 
 State as of 14/5/17
-- Two levels
+- Two levels right now
 - the first instantiates one of three "stars" at 0, 0, 0
 
 - the second is a randomly generated "star-map" of star systems which is generated on start
